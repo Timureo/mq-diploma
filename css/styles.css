@@ -62,7 +62,7 @@ input:focus {
 /* header start */
 
 .header {
-  background-image: url(./images/banner-bg.jpg);
+  background-image: url(../images/banner-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -210,7 +210,7 @@ input:focus {
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
-  background: #f4f7f6 url(./svg/form-arrows.svg) no-repeat;
+  background: #f4f7f6 url(../svg/form-arrows.svg) no-repeat;
   background-size: 7px;
   background-position: right 13px top 56%;
   font-size: 13px;
@@ -240,7 +240,7 @@ input:focus {
   display: inline-block;
   width: 15px;
   height: 15px;
-  background: url(./svg/form-empty-circle.svg) no-repeat;
+  background: url(../svg/form-empty-circle.svg) no-repeat;
   background-position: center center;
   background-size: 15px;
   vertical-align: -2px;
@@ -248,7 +248,7 @@ input:focus {
 }
 
 .radio:checked ~ .radio-group-text::before {
-  background: url(./svg/form-circle.svg) no-repeat;
+  background: url(../svg/form-circle.svg) no-repeat;
   background-position: center center;
   background-size: 15px;
 }
@@ -307,7 +307,7 @@ p.form-hint {
   top: -25px;
   right: 0;
   border: none;
-  background: url(./svg/form-x.svg) no-repeat;
+  background: url(../svg/form-x.svg) no-repeat;
   background-position: center center;
   background-size: 17px;
 }
@@ -372,7 +372,7 @@ p.form-hint {
   margin: 0 auto;
 }
 .about-garden {
-  background-image: url(./images/trend1.jpg);
+  background-image: url(../images/trend1.jpg);
   background-position: center center;
   min-height: 320px;
   position: relative;
@@ -421,7 +421,7 @@ p.form-hint {
 }
 
 .about-cheese {
-  background-image: url(./images/trend2.jpg);
+  background-image: url(../images/trend2.jpg);
   background-position: center center;
   min-height: 320px;
   position: relative;
@@ -441,7 +441,7 @@ p.form-hint {
 }
 
 .about-travel {
-  background-image: url(./images/trend3.jpg);
+  background-image: url(../images/trend3.jpg);
   background-position: center center;
   min-height: 320px;
   position: relative;
@@ -461,7 +461,7 @@ p.form-hint {
 }
 
 .about-lemons {
-  background-image: url(./images/trend4.jpg);
+  background-image: url(../images/trend4.jpg);
   min-height: 320px;
   position: relative;
 }
@@ -685,7 +685,7 @@ p.form-hint {
   height: 48px;
   background-color: #b59f5b;
   padding: 15px;
-  background-image: url(./svg/search.svg);
+  background-image: url(../svg/search.svg);
   background-size: 18px;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1002,7 +1002,7 @@ p.form-hint {
 }
 
 .dribbble-item {
-  background-image: url(./svg/001-dribbble.svg);
+  background-image: url(../svg/001-dribbble.svg);
   background-repeat: no-repeat;
   background-size: 19px;
   background-position: center center;
@@ -1011,7 +1011,7 @@ p.form-hint {
 }
 
 .pinterest-item {
-  background-image: url(./svg/001-pinterest.svg);
+  background-image: url(../svg/001-pinterest.svg);
   background-repeat: no-repeat;
   background-position: center center;
   width: 19px;
@@ -1019,7 +1019,7 @@ p.form-hint {
 }
 
 .tumblr-item {
-  background-image: url(./svg/003-tumblr.svg);
+  background-image: url(../svg/003-tumblr.svg);
   background-repeat: no-repeat;
   background-position: center center;
   width: 19px;
@@ -1043,7 +1043,7 @@ p.form-hint {
 
 @media (min-width: 641px) and (max-width: 1199px) {
   .header {
-    background-image: url(./images/banner-bg-tablet.jpg);
+    background-image: url(../images/banner-bg-tablet.jpg);
     background-size: cover;
     background-position: center center;
     padding-bottom: 113px;
@@ -1271,7 +1271,7 @@ p.form-hint {
   }
 
   .header {
-    background-image: url(./images/banner-mobile.jpg);
+    background-image: url(../images/banner-mobile.jpg);
     min-height: 635px;
     margin-bottom: 0;
   }
