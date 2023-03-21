@@ -392,7 +392,9 @@ p.form-hint {
 }
 .category-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
+  margin-bottom: 6px;
 }
 .category-list-tag {
   text-decoration: none;
@@ -403,7 +405,6 @@ p.form-hint {
 }
 
 .category-tag {
-  margin-bottom: 6px;
   color: #b59f3f;
 }
 
@@ -411,13 +412,18 @@ p.form-hint {
   text-decoration-line: underline;
 }
 
-.card-title {
+.card-title-link {
   color: #ffffff;
   text-transform: uppercase;
+  text-decoration: none;
   font-size: 20px;
   line-height: 24px;
   font-weight: bold;
   /* width: 99%; */
+}
+
+.card-title-link:hover {
+  color: #b59f5b;
 }
 
 .about-cheese {
@@ -515,11 +521,13 @@ p.form-hint {
 }
 
 .card-image {
-  width: 381px;
+  min-width: 381px;
+  max-height: 381px;
 }
 
 .card-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 18px;
   margin-bottom: 2px;
 }
@@ -637,12 +645,17 @@ p.form-hint {
   color: rgba(0, 0, 0, 0.54);
 }
 
-.post-title {
+.post-title-link {
   font-size: 14px;
   font-weight: bold;
   line-height: 18px;
   color: #000000;
   text-transform: uppercase;
+  text-decoration: none;
+}
+
+.post-title-link:hover {
+  color: #b59f5b;
 }
 
 .post-title:hover {
