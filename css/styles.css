@@ -1437,7 +1437,7 @@ p.form-hint {
     gap: 11px;
     margin-bottom: 49px;
   }
-  
+
   .card-list {
     margin-bottom: 8px;
   }
@@ -1455,9 +1455,9 @@ p.form-hint {
     line-height: 20px;
   }
 
-.card-image {
+  .card-image {
     min-width: auto;
-}
+  }
 
   .common-content {
     max-width: 360px;
@@ -1616,22 +1616,22 @@ p.form-hint {
 /* Styles for mobile end */
 
 @media (min-width: 641px) and (orientation: landscape) and (max-width: 1200px) {
-.trend-card {
-  width: calc(25% - 4px);
-}
-.trend-card:last-child {
-  width: 25%;
-}
-.trend-card:nth-child(n + 2) {
-  margin-left: 4px;
-}
-.wrapper {
+  .trend-card {
+    width: calc(25% - 4px);
+  }
+  .trend-card:last-child {
+    width: 25%;
+  }
+  .trend-card:nth-child(n + 2) {
+    margin-left: 4px;
+  }
+  .wrapper {
     padding: 10px 25px 22px 30px;
-}
+  }
 }
 
 @media (max-width: 640px) and (orientation: landscape) {
-.trend-card {
+  .trend-card {
     width: calc(50% - 2px);
     margin-bottom: 4px;
   }
