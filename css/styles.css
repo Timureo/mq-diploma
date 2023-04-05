@@ -373,7 +373,9 @@ p.form-hint {
 }
 .about-garden {
   background-image: url(../images/trend1.jpg);
+  background-size: cover;
   background-position: center center;
+  background-repeat: no-repeat;
   min-height: 320px;
   position: relative;
 }
@@ -428,6 +430,8 @@ p.form-hint {
 
 .about-cheese {
   background-image: url(../images/trend2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center center;
   min-height: 320px;
   position: relative;
@@ -448,6 +452,8 @@ p.form-hint {
 
 .about-travel {
   background-image: url(../images/trend3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center center;
   min-height: 320px;
   position: relative;
@@ -457,7 +463,6 @@ p.form-hint {
   content: "";
   display: block;
   background-color: rgba(17, 16, 16, 0.5);
-
   position: absolute;
   top: 0;
   left: 0;
@@ -468,6 +473,9 @@ p.form-hint {
 
 .about-lemons {
   background-image: url(../images/trend4.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   min-height: 320px;
   position: relative;
 }
@@ -1054,7 +1062,7 @@ p.form-hint {
 
 /* Styles for tablet start */
 
-@media (min-width: 641px) and (max-width: 1199px) {
+@media (min-width: 641px) and (max-width: 1200px) {
   .header {
     background-image: url(../images/banner-bg-tablet.jpg);
     background-size: cover;
@@ -1285,6 +1293,7 @@ p.form-hint {
 
   .header {
     background-image: url(../images/banner-mobile.jpg);
+    background-repeat: no-repeat;
     min-height: 635px;
     margin-bottom: 0;
   }
@@ -1394,6 +1403,7 @@ p.form-hint {
 
   .trend-card {
     width: 100%;
+    margin-bottom: 4px;
   }
 
   .about-garden,
@@ -1427,7 +1437,7 @@ p.form-hint {
     gap: 11px;
     margin-bottom: 49px;
   }
-  /* Тут остановился */
+  
   .card-list {
     margin-bottom: 8px;
   }
@@ -1444,6 +1454,10 @@ p.form-hint {
     font-size: 1em;
     line-height: 20px;
   }
+
+.card-image {
+    min-width: auto;
+}
 
   .common-content {
     max-width: 360px;
@@ -1600,3 +1614,33 @@ p.form-hint {
   }
 }
 /* Styles for mobile end */
+
+@media (min-width: 641px) and (orientation: landscape) and (max-width: 1200px) {
+.trend-card {
+  width: calc(25% - 4px);
+}
+.trend-card:last-child {
+  width: 25%;
+}
+.trend-card:nth-child(n + 2) {
+  margin-left: 4px;
+}
+.wrapper {
+    padding: 10px 25px 22px 30px;
+}
+}
+
+@media (max-width: 640px) and (orientation: landscape) {
+.trend-card {
+    width: calc(50% - 2px);
+    margin-bottom: 4px;
+  }
+
+  .trend-card:nth-child(n + 2) {
+    margin-left: 0px;
+  }
+
+  .trend-card:last-child {
+    width: calc(50% - 2px);
+  }
+}
