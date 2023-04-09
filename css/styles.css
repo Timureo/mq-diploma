@@ -1633,7 +1633,7 @@ p.form-hint {
 @media (max-width: 640px) and (orientation: landscape) {
   .trend-card {
     width: calc(50% - 2px);
-    margin-bottom: 4px;
+    margin-top: -4px;
   }
 
   .trend-card:nth-child(n + 2) {
@@ -1643,4 +1643,15 @@ p.form-hint {
   .trend-card:last-child {
     width: calc(50% - 2px);
   }
+  .trends-cards {
+    flex-direction: row;
+    gap: 4px;
+    flex-grow: 1;
+  }
+  .wrapper {
+    padding: 2px 1px 13px 13px;
+  }
 }
+
+
+
