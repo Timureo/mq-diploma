@@ -152,7 +152,7 @@ input:focus {
   left: 0;
   display: flex;
   z-index: 9;
-  display: none;
+  /* display: none; */
 }
 
 .popup__container {
