@@ -152,7 +152,7 @@ input:focus {
   left: 0;
   display: flex;
   z-index: 9;
-  /* display: none; */
+  display: none;
 }
 
 .popup__container {
@@ -1072,9 +1072,9 @@ p.form-hint {
   }
 
   .header-title {
-    font-size: 2.5em;
+    font-size: 40px;
     line-height: 55px;
-    margin: 0 30px;
+    margin: 0 auto;
   }
 
   .container {
@@ -1083,7 +1083,7 @@ p.form-hint {
   }
 
   .logo-image {
-    width: 10.0625em;
+    width: 161px;
   }
 
   .header-nav-panel {
@@ -1145,7 +1145,7 @@ p.form-hint {
   }
 
   .trends-title {
-    font-size: 1.125em;
+    font-size: 18px;
   }
 
   .trends-title::after {
@@ -1178,7 +1178,7 @@ p.form-hint {
   }
 
   .card-title {
-    font-size: 1.0625em;
+    font-size: 17px;
   }
 
   .common-content {
@@ -1195,7 +1195,7 @@ p.form-hint {
   }
 
   a.subtitle-link {
-    font-size: 1.0625em;
+    font-size: 17px;
   }
 
   .card {
@@ -1240,7 +1240,7 @@ p.form-hint {
   }
 
   .products-title {
-    font-size: 1.125em;
+    font-size: 18px;
   }
 
   .products-title::after {
@@ -1252,7 +1252,7 @@ p.form-hint {
   }
 
   .feedback__title {
-    font-size: 1.125em;
+    font-size: 18px;
   }
 
   .popup__close {
@@ -1365,8 +1365,8 @@ p.form-hint {
   }
 
   .header-title {
-    font-size: 1.625em;
-    line-height: 1.25em;
+    font-size: 26px;
+    line-height: 20px;
   }
 
   .popup__container {
@@ -1374,7 +1374,7 @@ p.form-hint {
   }
 
   .feedback__title {
-    font-size: 1em;
+    font-size: 16px;
   }
 
   .feedback__title::after {
@@ -1386,7 +1386,7 @@ p.form-hint {
   }
 
   .trends-title {
-    font-size: 1em;
+    font-size: 16px;
   }
 
   .trends-title::after {
@@ -1447,11 +1447,11 @@ p.form-hint {
   }
 
   .card-text {
-    font-size: 0.875em;
+    font-size: 14px;
   }
 
   .card-title {
-    font-size: 1em;
+    font-size: 16px;
     line-height: 20px;
   }
 
@@ -1469,7 +1469,7 @@ p.form-hint {
 
   .subtitle-link {
     line-height: 20px;
-    font-size: 1em;
+    font-size: 16px;
   }
 
   .card-image {
@@ -1477,7 +1477,7 @@ p.form-hint {
   }
 
   .posts-title {
-    font-size: 1em;
+    font-size: 16px;
     margin-top: 50px;
   }
 
@@ -1507,7 +1507,7 @@ p.form-hint {
   }
 
   .mailing-list-title {
-    font-size: 1em;
+    font-size: 16px;
   }
 
   .mailing-list-field {
@@ -1536,7 +1536,7 @@ p.form-hint {
   }
 
   .tags-title {
-    font-size: 1em;
+    font-size: 16px;
   }
 
   .subject-title {
@@ -1550,7 +1550,7 @@ p.form-hint {
   }
 
   .products-title {
-    font-size: 1em;
+    font-size: 16px;
   }
 
   .products-title::after {
@@ -1578,7 +1578,7 @@ p.form-hint {
   }
 
   .product-subtitle {
-    font-size: 1.0625em;
+    font-size: 17px;
   }
 
   .socials-list {
@@ -1628,6 +1628,24 @@ p.form-hint {
   .wrapper {
     padding: 10px 25px 22px 30px;
   }
+  .category-list-tag {
+    font-size: 12px;
+  }
+  .card-title-link {
+    font-size: 12px;
+  }
+  .category-list {
+    gap: 4px;
+  }
+  .wrapper {
+    padding: 10px 5px 10px 5px;
+  }
+}
+
+@media (min-width: 641px) and (orientation: portrait) and (max-width: 1200px) {
+  .card-title-link {
+    font-size: 17px;
+  }
 }
 
 @media (max-width: 640px) and (orientation: landscape) {
@@ -1651,7 +1669,13 @@ p.form-hint {
   .wrapper {
     padding: 2px 1px 13px 13px;
   }
+  .card-title-link {
+    font-size: 16px;
+  }
 }
 
-
-
+@media (max-width: 640px) and (orientation: portrait) {
+  .card-title-link {
+    font-size: 16px;
+  }
+}
